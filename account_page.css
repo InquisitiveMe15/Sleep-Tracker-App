@@ -1,0 +1,70 @@
+body{
+    background-color: #d8a9ff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navugation Bar  */
+.nav-link {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.img {
+  height: 50px;
+  
+}
+
+.navbar-brand {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+.mynavbar{
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+
+/* Accounts Page */
+
+
+.accountbox {
+  background-color: #d8a9ff;
+  padding: 2% 6% 3% 6%;
+  margin: auto;
+  padding-top: 96px;
+}
+
+.entry {
+  padding: 1% 0 0;
+}
+h1 {
+  padding-bottom: 1%;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+form {
+  font-size: 1.4rem;
+}
+.update-btn{
+    margin-top: 2%;
+    border: 2px solid #b74cff;
+}
+.genderbtn{
+    margin: 0 1%;
+}
+label{
+  font-weight: 500;
+}
+span{
+  font-weight: 500;
+}

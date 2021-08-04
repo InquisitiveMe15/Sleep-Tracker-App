@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="account_page.css">
+
+    <script src="https://kit.fontawesome.com/9daeb8e3e3.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-md mynavbar" style="background-color:#b74cff;">
+        <div class="container-fluid">
+            <div class="img img-logo">
+                <img
+                    src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/whatsapp/273/sleeping-face_1f634.png">
+            </div>
+            <a class="navbar-brand" href="">SleeeepTracker</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="account_page.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sleep_tracker_health_record_page.html">Health Record</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sleep_tracker_entries_page.html">Entries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sleep_tracker_new_entry_page.html">New entry</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col col-lg-10 col-md-10 col-sm-10 accountbox">
+                <h1>ACCOUNT SETTINGS</h1>
+                <form action="">
+                    <div class="row entry">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <label for="firstname">First Name</label>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="text" id="firstname">
+                        </div>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <label for="lastname">Last Name</label>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="text" id="lastname">
+                        </div>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <label for="dob">Date of Birth</label>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="date" name="" id="dob">
+                        </div>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <label for="gender">Gender</label>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <span>Male</span><input type="radio" name="gender" id="gender"
+                                class="genderbtn"><span>Female</span><input type="radio" name="gender" id="gender"
+                                class="genderbtn">
+                        </div>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <label for="emailid">Email ID</label>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="email" id="emailid">
+                        </div>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <label for="mobileno">Mobile Number</label>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="tel" name="" id="mobileno">
+                        </div>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <label for="passwordchange">Change Password</label>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="password" class="passwordchange">
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-dark btn-lg update-btn">Update</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Javascript and jQuery links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="accounts.js"></script>
+</body>
+
+</html>
